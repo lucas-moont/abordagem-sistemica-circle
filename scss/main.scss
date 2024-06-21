@@ -1,9 +1,43 @@
 body{
   background-color: #07486f;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 32px;
+  padding: 128px 32px;
 }
 
 *{
   box-sizing: border-box;
+}
+
+.approachesOuterCircle{
+  width: 800px;
+  height: 800px;
+  border: 7px solid #FFF;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+}
+
+.approachesInnerCircle{
+  width: 520px;
+  height: 520px;
+  border: 7px dashed #FFF;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.approachesInnerCircleHeader{
+  font-size: 48px;
+  color: #FFF;
+  border: 0;
 }
 
 .specificApproachCircle{
